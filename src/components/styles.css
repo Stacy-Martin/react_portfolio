@@ -6,3 +6,129 @@
     width: 300px;
     height: 300px;
 }
+
+/* colors 
+cream: #fffbee
+gray: #707174
+soft green:  #c9d8d7
+light white: #fffefd */
+
+
+body {
+    background-color: #fffefd;
+}
+
+.jumbotron {
+    /* background-image:url("../Images//32-325791_free-high-resolution-graphic-backgrounds-high-resolution-abstract.jpg"); */
+    justify-content: center;
+    text-align: center;
+    /* height:150pt; */
+    font-family: korolev, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding: 20pt;
+    min-height: 60vh;
+}
+
+/* nav bar */
+a {
+    color: #c5cbe3;
+    padding: 20pt;
+}
+
+/* header my name */
+#myName {
+    font-family: reklame-script, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60pt;
+    color: #c5cbe3;
+    padding: 10pt;
+}
+
+/* header description */
+#basics {
+    font-family: korolev, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30pt;
+    color: #c5cbe3;
+    padding: 10pt;
+}
+
+/* this is my photo clipped into a polygon */
+.mug_shot1 {
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    float: left;
+  }
+
+/* this is the color when the mouse hovers over the nav bar buttons */
+a:hover {color: #e27d60}
+
+#AboutMe {
+    margin: 20pt;
+    font-family: korolev, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #5e2c04;
+}
+
+/* paragraph in the about me section */
+#about-me-text {
+    font-size: 14pt;
+    line-height: 2pc;
+}
+
+.project {
+    margin-top: 80pt;;
+}
+/* style the 3 project cards */
+.projectCard {
+    border: 20pt;
+    font-family: korolev, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16pt;
+    color: #c5cbe3;
+    padding: 10pt;
+}
+
+/* add some space under the About Me paragraph */
+.s12 {
+    margin-bottom: 15pt;
+}
+
+/* contact icons */
+#Contact {
+    margin: 30pt;
+}
+
+/* styling the footer */
+footer {
+    font-family: reklame-script, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    color: #5e2c04;
+    letter-spacing: 2pt;
+    text-align: center;
+    margin: 30pt;
+  }
+
+@media only screen and (max-width: 600px){
+
+    .mug_shot1{
+        float:none;
+        justify-self: center;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+
+    .card-content {
+        height: 250px
+    }
+}

@@ -9,7 +9,7 @@ import "./styles.css";
 
 function Projects(props) {
   return (
-    <div>
+    <div id="Projects">
       <Carousel className="carouselContainer">
         <Carousel.Item>
           <img
