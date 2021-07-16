@@ -9,8 +9,8 @@ import facebookLogo from "../assets/images/facebook.webp";
 function Footer(props) {
   return (
     <div>
-      <section class="row" id="Contact">
-        <div class="col s2">
+      <section className="row" id="Contact">
+        <div className="col s2">
           <a
             href="mailto:sbrown1031@gmail.com"
             target="_blank"
@@ -23,7 +23,7 @@ function Footer(props) {
             />
           </a>
         </div>
-        <div class="col s2">
+        <div className="col s2">
           <a href="tel:+501.622.1484">
             <img
               src={phoneIcon}
@@ -32,7 +32,7 @@ function Footer(props) {
             />
           </a>{" "}
         </div>
-        <div class="col s2">
+        <div className="col s2">
           <a
             href="https://github.com/Stacy-Martin"
             target="_blank"
@@ -45,7 +45,7 @@ function Footer(props) {
             />
           </a>
         </div>
-        <div class="col s2">
+        <div className="col s2">
           <a
             href="https://www.linkedin.com/in/stacy-brown-martin-81b198204/"
             target="_blank"
@@ -58,7 +58,7 @@ function Footer(props) {
             />
           </a>
         </div>
-        <div class="col s2">
+        <div className="col s2">
           <a
             href="https://api.whatsapp.com/send?phone=5016221484"
             target="_blank"
@@ -71,7 +71,7 @@ function Footer(props) {
             />
           </a>
         </div>
-        <div class="col s2">
+        <div className="col s2">
           <a
             href="https://www.facebook.com/kaimanimarinetours"
             target="_blank"

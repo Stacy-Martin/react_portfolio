@@ -19,7 +19,7 @@ body {
 }
 
 .jumbotron {
-    /* background-image:url("../Images//32-325791_free-high-resolution-graphic-backgrounds-high-resolution-abstract.jpg"); */
+    background-image:url("../assets/images/32-325791_free-high-resolution-graphic-backgrounds-high-resolution-abstract.jpg");
     justify-content: center;
     text-align: center;
     /* height:150pt; */

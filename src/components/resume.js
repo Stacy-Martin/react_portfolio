@@ -12,6 +12,10 @@ function Resume (props) {
   <body>
     <iframe src={resumeDoc} width="100%" height="100%">
     </iframe>
+
+    <a href="./assets/pdf/Chris_Martinez_Resume.pdf" target="_blank" rel="noreferrer"><img src={resume} alt="Resume" class="resume" /></a>
+
+    
   </body>
 </html>
 </div>
