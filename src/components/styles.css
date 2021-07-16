@@ -45,8 +45,14 @@ body {
 } */
 .carouselCaption {
     position: relative;
-    top: -50px;
+    top: -20px;
    left: 0;
+   color: black;
+   margin-bottom: 10px;
+}
+
+.footer {
+border: 20px;
 }
 /* nav bar */
 a {

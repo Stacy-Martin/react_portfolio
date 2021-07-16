@@ -8,8 +8,8 @@ import facebookLogo from "../assets/images/facebook.webp";
 
 function Footer(props) {
   return (
-    <div>
-      <section className="row" id="Contact">
+    <div className="footer" >
+      <section className="row " id="Contact">
         <div className="col s2">
           <a
             href="mailto:sbrown1031@gmail.com"
