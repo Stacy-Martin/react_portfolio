@@ -3,7 +3,7 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Description
-Hi and welcome to my portfolio.  I will showcase my web development work here.  Please get in touch if you'd like to chat, colloborate or have some work opportunity!
+Hi and welcome to my portfolio.  I will showcase my web development work here.  Please get in touch if you'd like to chat, collaborate or have some work opportunity!
 
 ## Table of Contents
   - [React Portfolio](#React_Portfolio)

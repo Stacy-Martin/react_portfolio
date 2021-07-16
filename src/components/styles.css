@@ -30,6 +30,24 @@ body {
     min-height: 60vh;
 }
 
+.stacyResume{
+    float:none;
+    margin: 0 auto;
+}
+
+/* .carouselCaption{
+    position:absolute;
+    bottom: -100px;
+} */
+/* .carouselContainer > .carouselItem {
+    position: relative;
+    max-height: 600px;
+} */
+.carouselCaption {
+    position: relative;
+    top: -50px;
+   left: 0;
+}
 /* nav bar */
 a {
     color: #c5cbe3;

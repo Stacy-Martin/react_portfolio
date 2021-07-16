@@ -1,7 +1,9 @@
 import React from "react";
 // import resume from "./resume"
+import Iframe from "./Iframe";
 import mug from "../assets/images/24993_1404599230899_6190704_n.jpg"
-
+import resume from "../assets/uploads/SbrownResume2021.pdf";
+import {HashLink as Link} from "react-router-hash-link";
 function Header (props) {
     return (
         <div>
@@ -9,12 +11,10 @@ function Header (props) {
       <div className="divider"></div>
       <div className="section">
         <h5 className="navBar">
-          <a href="#AboutMe">About Me</a>
-          <a href="#Projects">Projects</a>
-          <a href="#Contact">Contact</a>
-          {/* <a href={resume} target="_blank" rel="noreferrer">Resume</a> */}
-          {/* <iframe src="assets/Uploads/SbrownResume2021.pdf" width="100%" height="100%">
-    </iframe> */}
+          <Link to="/main#AboutMe">About Me</Link>
+          <Link to="/main#Projects">Projects</Link>
+          <Link to="/main#Contact">Contact</Link>
+          <Link to="/resume">Resume</Link>
         </h5>
       </div>
       <div className="divider"></div>
