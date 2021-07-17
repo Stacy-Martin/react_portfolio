@@ -9,93 +9,86 @@ import "./styles.css";
 
 function Projects(props) {
   return (
-    <div id="Projects">
-      <Carousel  className="carouselContainer">
+    <main id="Projects">
+      <Carousel className="h-100">
         <Carousel.Item>
-          <img
-            className="d-block w-100 carouselItem"
-            src={Boredify}
-            alt="boredify img"
-          />
+          <img className="carouselImage" src={Boredify} alt="boredify img" />
           <Carousel.Caption className="carouselCaption">
-            <h3>Boredify: An app to escape boredom</h3>
             <a
               className="projectUrl"
               href="https://cbmartinez42.github.io/boredify-project/"
             >
-              https://cbmartinez42.github.io/boredify-project/
+              Boredify: An app to escape boredom
             </a>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carouselImage"
             src={wagemtagem}
             alt="wagemtagem img"
           />
           <Carousel.Caption className="carouselCaption">
-            <h3>Wag Em Tag Em: A place where like minded canines can link</h3>
             <a
               className="projectUrl"
-              href= "https://limitless-caverns-66584.herokuapp.com/"
-              >
-              https://limitless-caverns-66584.herokuapp.com/
+              href="https://limitless-caverns-66584.herokuapp.com/"
+            >
+              Wag Em Tag Em: A place where like minded canines can link
             </a>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carouselImage"
             src={weatherDashboard}
             alt="weather dashboard img"
           />
           <Carousel.Caption className="carouselCaption">
-            <h3>Weather Dashboard: A dynamic weather app</h3>
             <a
               className="projectUrl"
-              href= "https://stacy-martin.github.io/weather-dashboard/">    https://stacy-martin.github.io/weather-dashboard/
+              href="https://stacy-martin.github.io/weather-dashboard/"
+            >
+              Weather Dashboard: A dynamic weather app
             </a>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carouselImage"
             src={employeeDirectory}
             alt="Employee Directory img"
           />
           <Carousel.Caption className="carouselCaption">
-            <h3>
-              Employee Directory: React app for quick access to employee
-              databases
-            </h3>
             <a
               className="projectUrl"
-              href= "https://stacy-martin.github.io/employee_directory"> https://stacy-martin.github.io/employee_directory/
+              href="https://stacy-martin.github.io/employee_directory"
+            >
+              Employee Directory: React app for quick access to employee
+              databases
             </a>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
           <img
-            className="d-block w-100"
+            className="carouselImage"
             src={budgetTracker}
             alt="budget tracker img"
           />
           <Carousel.Caption className="carouselCaption">
-            <h3>
-              Budget Tracker: Personal accounting app with offline functioning
-            </h3>
             <a
               className="projectUrl"
-              href= "https://whispering-scrubland-98765.herokuapp.com/">     https://whispering-scrubland-98765.herokuapp.com/
+              href="https://whispering-scrubland-98765.herokuapp.com/"
+            >
+              Budget Tracker: Personal accounting app with offline functioning
             </a>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+    </main>
   );
 }
 
