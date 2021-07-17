@@ -10,6 +10,7 @@ body {
 
 .jumbotron {
   background-image: url("../assets/images/32-325791_free-high-resolution-graphic-backgrounds-high-resolution-abstract.jpg");
+  background-repeat: no-repeat;
   justify-content: center;
   text-align: center;
   font-family: korolev, sans-serif;
@@ -83,6 +84,12 @@ a:hover {
   line-height: 2pc;
 }
 
+.stacyResume{
+  float:none;
+  margin: auto;
+
+}
+
 .project {
   margin-top: 80pt;
 }
@@ -128,13 +135,14 @@ a:hover {
   width: 100%;
   object-fit: contain;
   object-position: center;
-}
+  }
 
 .carouselCaption {
   position: absolute;
   bottom: 0px;
   text-align: center;
   color: black;
+  text-decoration: underline;
   transform: translateY(7rem);
 }
 
@@ -142,9 +150,19 @@ a:hover {
   overflow: visible;
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  /* outline: black; */
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  /* border-radius: 50%; */
+  /* border: 1px solid black; */
+}
+
 /* .carousel > .carousel-control-prev{
-  /* aria-hidden=false; */
-/* } */
+  aria-hidden=false; 
+ } */
 
 .projectUrl {
   font-size: 30px;
@@ -160,9 +178,13 @@ a:hover {
   font-family: reklame-script, sans-serif;
   font-style: normal;
   font-weight: 200;
-  color: #5e2c04;
+  color: #fffbee;
   letter-spacing: 2pt;
   text-align: center;
   margin: 0pt;
-  background-color: #c9d8d7;
-}
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: left top;
+  background-image: url("../assets/images/32-325791_free-high-resolution-graphic-backgrounds-high-resolution-abstract.jpg");
+  }
